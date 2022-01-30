@@ -1,0 +1,12 @@
+﻿<a href=@URL class="text-6xl font-bold" style="color: #5865f2;" ><img style="width: 120px; border-radius: 50%;" src=@IconURL/>@Name</a>
+
+@code {
+    [Parameter]
+    public string? IconURL { get; set; }
+
+    [Parameter]
+    public string? URL { get; set; }
+
+    [Parameter]
+    public string? Name { get; set; }
+}

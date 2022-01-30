@@ -1,41 +1,18 @@
 ﻿@page "/"
 @page "/index.html"
-@inject MongoService MongoService
 
 <div class="mt-10 text-white text-center pb-12">
     <div>
-        <div class="text-6xl font-bold">Hey! I'm <span class="grPageTitle">Turtlepaw</span></div>
+        <div class="text-6xl font-bold"><span class="grPageTitle">Diswumpus</span></div>
         <br />
-        @*Hey there, I'm Turtlepaw I like to <span class="grDescription">code</span>, <span class="grDescription">draw</span>, and <span class="grDescription">play games</span>! *@
-        <div class="grPageTitle text-4xl font-bold">Bio:</div>
-        <div class="font-normal text-lg font-bold">Hey there! I'm Turtlepaw, I like to <span class="grDescription">code, draw, and play games like siege!</span> I also like to create <span class="grDescription">Discord bots and NPM/Yarn packages</span> for <span class="blurpleText">Discord</span>. You can contact me through <a href="r/myDiscord">Discord</a> or <a href="r/emailMe">Email</a>! My favorite coding language is JS and TS. </div>
     </div>
     <br />
     <br />
     <div>
-        <details open>
+        <details>
 
-            <summary><img src="discord.png" style="width: 80px; display: inline" /> <span class="text-6xl font-bold grTitle">Discords:</span></summary>
+            <summary><img src="discord.png" style="width: 80px; display: inline" /> <span class="text-6xl font-bold grTitle">Discord Bots:</span></summary>
             <br />
-            <div>
-                <center>
-                <InviteWidget InviteURL="https://discord.gg/6ed58Kmjqu" />
-                <br />
-                <InviteWidget InviteURL="https://discord.gg/M5FmmnBgTV" />
-                <br />
-                <InviteWidget InviteURL="https://discord.gg/jH5Cg5mzyP" />
-                <br />
-                <InviteWidget InviteURL="https://discord.gg/GnNZNXPqRP" />
-                <br />
-                </center>
-            </div>
-            <br />
-        </details>
-        <br /><br />
-        <details open>
-
-            <summary><img src="github.png" style="width: 80px; display: inline" /> <span class="text-6xl font-bold grTitle">Projects:</span></summary>
-
             <div>
                 <center>
                     <Project Name="Slash Commands" IconURL="https://slashr.xyz/logo.svg" URL="https://slashr.xyz/" />
@@ -43,12 +20,20 @@
                     <br />
                     <Project Name="Pepperbot" IconURL="https://pepper.trtle.xyz/pepper.svg" URL="https://pepper.trtle.xyz/" />
                     <br />
+                </center>
+            </div>
+            <br />
+        </details>
+        <br /><br />
+        <details>
+
+            <summary><img src="npm.png" style="width: 80px; display: inline" /> <span class="text-6xl font-bold grTitle">NPM Packages:</span></summary>
+
+            <div>
+                <center>
+                    <NPM Name="Discord.jsh" IconURL="https://jsh.slashr.xyz/Assets/jsh_icon.svg" URL="https://jsh.slashr.xyz/" />
                     <br />
-                    <Project Name="Discord.jsh" IconURL="https://jsh.slashr.xyz/Assets/jsh_icon.svg" URL="https://jsh.slashr.xyz/" />
-                    <br />
-                    <br />
-                    <Project Name="Discord Trivia" IconURL="https://cdn.discordapp.com/icons/933113625537835049/e36e3ddcc37019459f1562c5f4e8e5b2.png" URL="https://discord.gg/jH5Cg5mzyP" />
-                    <br />
+                    <NPM Name="Discord.js Util" IconURL="https://raw.githubusercontent.com/Diswumpus/Discord-Util/main/Assets/icon.png" URL="" />
                 </center>
             </div>
         </details>
