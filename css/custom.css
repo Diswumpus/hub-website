@@ -1,0 +1,38 @@
+﻿head, body {
+    background-color: #3A3C41;
+}
+
+a {
+    color: #5865f2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5865f2;
+    text-decoration: underline;
+}
+
+.grTitle {
+    color: transparent;
+    background-image: linear-gradient( 90deg,#5865f2, #E684AE);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.grDescription {
+    color: transparent;
+    background-image: linear-gradient( 90deg,#ec8c69, #fa7199);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.grPageTitle {
+    color: transparent;
+    background-image: linear-gradient(135deg,#79CBCA,#E684AE);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.blurpleText {
+    color: #5865f2;
+}
